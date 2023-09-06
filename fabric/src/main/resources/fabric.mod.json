@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "mptest",
+  "version": "${version}",
+  "name": "Multiplatform Test Mod",
+  "description": "Architectury + Forgix test mod.",
+  "authors": [
+    "yezhiyi9670"
+  ],
+  "contact": {
+    "sources": "https://github.com/yezhiyi9670/clear-void"
+  },
+  "license": "MIT License",
+  "icon": "assets/mptest/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "yezhiyi9670.mptest.fabric.ExampleModFabric"
+    ]
+  },
+  "mixins": [
+    "mptest.mixins.json",
+    "mptest-common.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.18.1"
+  }
+}
